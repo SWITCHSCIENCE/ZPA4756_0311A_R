@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For ZPA4756_0311A_R
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ZPA4756_0311A_R	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin   KEYWORD2
+setAverages KEYWORD2
+setStandbyTime  KEYWORD2
+setOversamplingRate KEYWORD2
+setContentiousMode  KEYWORD2
+readMeasurements    KEYWORD2
+getPressure KEYWORD2
+getTemperature  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
