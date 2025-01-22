@@ -64,11 +64,11 @@ bool ZPA4756_0311A_R::readMeasurements(bool blocking)
             {
                 break;
             }
-        } while (cnt++ < 50);
-        if (cnt >= 50)
-        {
-            return false;
-        }
+            if (cnt++ >= 750)
+            {
+                return false;
+            }
+        } while (true);
     }
     else
     {
